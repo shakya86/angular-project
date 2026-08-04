@@ -18,11 +18,11 @@ This repository provides a **simple yet scalable** Angular 18.1 project setup. I
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Amin-Karimi/angular-sample-small-project.git
+   git clone https://github.com/shakya86/angular-project.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd angular-sample-small-project
+   cd angular-project
    ```
 3. Install dependencies:
    ```bash
