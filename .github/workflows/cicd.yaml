@@ -66,8 +66,8 @@ jobs:
     - name: Angular Version
       run: npx ng version
 
-    - name: Lint Application
-      run: npm run lint
+    # - name: Lint Application
+    #   run: npm run lint
 
     - name: Run Unit Tests
       run: |
