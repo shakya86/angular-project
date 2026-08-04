@@ -27,6 +27,11 @@ jobs:
     ####################################################
     # Checkout Repository
     ####################################################
+    - name: Print GitHub Context
+      run: |
+       echo "Repository=$GITHUB_REPOSITORY"
+       echo "Ref=$GITHUB_REF"
+       echo "Actor=$GITHUB_ACTOR"
     - name: Checkout Source
       uses: actions/checkout@v4
 
