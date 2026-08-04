@@ -1,4 +1,4 @@
-name: Angular 20 CI Pipeline
+name: Angular 20 CI Pipeline new
 
 on:
   push:
