@@ -1,15 +1,16 @@
 name: Angular 20 CI Pipeline new
 
 on:
-  push:
-    branches:
-      - main
-      - develop
-      - feature/**
-  pull_request:
-    branches:
-      - main
-      - develop
+  workflow_dispatch
+  #push:
+    # branches:
+    #   - main
+    #   - develop
+    #   - feature/**
+#   pull_request:
+#     branches:
+#       - main
+#       - develop
 
 permissions:
   id-token: write
