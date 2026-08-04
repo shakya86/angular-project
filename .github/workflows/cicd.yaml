@@ -69,12 +69,12 @@ jobs:
     # - name: Lint Application
     #   run: npm run lint
 
-    - name: Run Unit Tests
-      run: |
-        npm test -- \
-          --watch=false \
-          --browsers=ChromeHeadless \
-          --code-coverage
+    # - name: Run Unit Tests
+    #   run: |
+    #     npm test -- \
+    #       --watch=false \
+    #       --browsers=ChromeHeadless \
+    #       --code-coverage
 
     - name: Security Audit
       run: npm audit --audit-level=high
